@@ -2,18 +2,18 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "6765826972"
-    sudo_users = "6845325416", "6765826972"
-    GROUP_ID = -1002133191051
-    TOKEN = "6653243642:AAEaI93MNElP8WXsQ59AZWZgvnZ1WpnVTyY"
-    mongo_url = "mongodb+srv://shuyaaaaa12:NvpoBuRp7MVPcAYA@cluster0.q2yycqx.mongodb.net/"
+    OWNER_ID = "6117482949"
+    sudo_users = "6117482949", "6765826972"
+    GROUP_ID = -1002119971614
+    TOKEN = "6980178795:AAEBUZDJsLta5IbcXBRaq3pSjhAZMXFvrlM"
+    mongo_url = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
-    SUPPORT_CHAT = "Collect_em_support"
-    UPDATE_CHAT = "Collect_em_support"
-    BOT_USERNAME = "Collect_Em_AllBot"
-    CHARA_CHANNEL_ID = "-1002133191051"
-    api_id = 26626068
-    api_hash = "bf423698bcbe33cfd58b11c78c42caa2"
+    SUPPORT_CHAT = "anime_x_god_group"
+    UPDATE_CHAT = "anime_x_gos"
+    BOT_USERNAME = "taki_waifus_bot"
+    CHARA_CHANNEL_ID = "-1002017843882"
+    api_id = 25997075
+    api_hash = "8f7d4aba2280fa063694064beba34d7d"
 
     
 class Production(Config):
