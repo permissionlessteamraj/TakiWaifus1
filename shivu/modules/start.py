@@ -40,11 +40,11 @@ async def start(update: Update, context: CallbackContext) -> None:
         """
         
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')]
+            [InlineKeyboardButton("💞Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ💞", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help')],
+            [InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -54,11 +54,11 @@ async def start(update: Update, context: CallbackContext) -> None:
     else:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("💞Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ💞", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help')],
+            [InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')]
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -97,11 +97,11 @@ async def button(update: Update, context: CallbackContext) -> None:
 
         
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
+            [InlineKeyboardButton("💞Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ💞", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help')],
+            [InlineKeyboardButton("SOURCE", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
