@@ -34,17 +34,28 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         
         caption = f"""
-        ***Heyyyy...***
+        ***𝐇𝐄𝐋𝐋𝐎 𝐈'𝐌 𝐀𝐃𝐕𝐀𝐍𝐂𝐄 𝐖𝐀𝐈𝐅𝐔𝐒 & 𝐇𝐔𝐒𝐁𝐀𝐍𝐃𝐎𝐒 𝐂𝐀𝐓𝐂𝐇𝐄𝐑 𝐁𝐎𝐓*** 💫
 
-***I am An Open Source Character Catcher Bot...​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+***🍃 ɢʀᴇᴇᴛɪɴɢs, ɪ'ᴍ ˹ᴡᴀɪғᴜ ɢꝛᴀʙʙᴇꝛ ʙᴏᴛ˼ 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!
+━━━━━━━▧▣▧━━━━━━━
+⦾ ᴡʜᴀᴛ ɪ ᴅᴏ: ɪ sᴘᴀᴡɴ   
+     ᴡᴀɪғᴜs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ғᴏʀ
+     ᴜsᴇʀs ᴛᴏ ɢʀᴀʙ.
+⦾ ᴛᴏ ᴜsᴇ ᴍᴇ: ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ
+     ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ
+     ʙᴜᴛᴛᴏɴ ғᴏʀ ᴅᴇᴛᴀɪʟs.
+━━━━━━━▧▣▧━━━━━━━
+➺ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃:- @anime_fan_owner
+➺ 𝐑𝐞𝐩𝐨𝐫𝐭:- @anime_x_god_group***
         """
         
         keyboard = [
             [InlineKeyboardButton("💞Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ💞", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
             [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help')],
-            [InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')]
+            [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help'),
+            [InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')],
+            [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇᴅ💥", url=f'https://t.me/anime_fan_owner')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -92,9 +103,19 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***Hoyyyy...*** ✨
+        ***𝐇𝐄𝐋𝐋𝐎 𝐈'𝐌 𝐀𝐃𝐕𝐀𝐍𝐂𝐄 𝐖𝐀𝐈𝐅𝐔𝐒 & 𝐇𝐔𝐒𝐁𝐀𝐍𝐃𝐎𝐒 𝐂𝐀𝐓𝐂𝐇𝐄𝐑 𝐁𝐎𝐓*** 💫
 
-***I am An Open Source Character Catcher Bot..​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+***🍃 ɢʀᴇᴇᴛɪɴɢs, ɪ'ᴍ ˹ᴡᴀɪғᴜ ɢꝛᴀʙʙᴇꝛ ʙᴏᴛ˼ 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!
+━━━━━━━▧▣▧━━━━━━━
+⦾ ᴡʜᴀᴛ ɪ ᴅᴏ: ɪ sᴘᴀᴡɴ   
+     ᴡᴀɪғᴜs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ғᴏʀ
+     ᴜsᴇʀs ᴛᴏ ɢʀᴀʙ.
+⦾ ᴛᴏ ᴜsᴇ ᴍᴇ: ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ
+     ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ
+     ʙᴜᴛᴛᴏɴ ғᴏʀ ᴅᴇᴛᴀɪʟs.
+━━━━━━━▧▣▧━━━━━━━
+➺ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃:- @anime_fan_owner
+➺ 𝐑𝐞𝐩𝐨𝐫𝐭:- @anime_x_god_group***
         """
 
         
