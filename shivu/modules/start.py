@@ -83,9 +83,7 @@ async def button(update: Update, context: CallbackContext) -> None:
     if query.data == 'help':
         help_text = """
     ***Help Section:***
-    
-***Help Section:
-    
+      
 ***/guess: Tᴏ Gᴜᴇss ᴄʜᴀʀᴀᴄᴛᴇʀ (ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘ)***
 ***/fav: Aᴅᴅ Yᴏᴜʀ ғᴀᴠ***
 ***/trade : Tᴏ ᴛʀᴀᴅᴇ Cʜᴀʀᴀᴄᴛᴇʀs***
