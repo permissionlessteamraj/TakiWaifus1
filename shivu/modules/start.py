@@ -34,9 +34,19 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         
         caption = f"""
-        ***𝐇𝐄𝐋𝐋𝐎...*** 💫
+        ***𝐇𝐄𝐋𝐋𝐎 𝐈'𝐌 𝐀𝐃𝐕𝐀𝐍𝐂𝐄 𝐖𝐀𝐈𝐅𝐔𝐒 & 𝐇𝐔𝐒𝐁𝐀𝐍𝐃𝐎𝐒 𝐂𝐀𝐓𝐂𝐇𝐄𝐑 𝐁𝐎𝐓*** 💫
 
-***I ᴀᴍ Aɴ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cʜᴀʀᴀᴄᴛᴇʀ Cᴀᴛᴄʜᴇʀ Bᴏᴛ..Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘ.. Aɴᴅ I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Cʜᴀʀᴀᴄᴛᴇʀs Aғᴛᴇʀ.. ᴇᴠᴇʀʏ 𝟷𝟶𝟶 ᴍᴇssᴀɢᴇs ɪɴ Gʀᴏᴜᴘ... Usᴇ /Guess ᴛᴏ.. Cᴏʟʟᴇᴄᴛ ᴛʜᴀᴛ Cʜᴀʀᴀᴄᴛᴇʀs ɪɴ Yᴏᴜʀ Cᴏʟʟᴇᴄᴛɪᴏɴ.. ᴀɴᴅ sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ ʙʏ ᴜsɪɴɢ /Harem... Sᴏ ᴀᴅᴅ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ Cᴏʟʟᴇᴄᴛ Yᴏᴜʀ ʜᴀʀᴇᴍ.***
+***🍃 ɢʀᴇᴇᴛɪɴɢs, ɪ'ᴍ ˹ᴡᴀɪғᴜ ɢꝛᴀʙʙᴇꝛ ʙᴏᴛ˼ 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!
+━━━━━━━▧▣▧━━━━━━━
+⦾ ᴡʜᴀᴛ ɪ ᴅᴏ: ɪ sᴘᴀᴡɴ   
+     ᴡᴀɪғᴜs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ғᴏʀ
+     ᴜsᴇʀs ᴛᴏ ɢʀᴀʙ.
+⦾ ᴛᴏ ᴜsᴇ ᴍᴇ: ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ
+     ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ
+     ʙᴜᴛᴛᴏɴ ғᴏʀ ᴅᴇᴛᴀɪʟs.
+━━━━━━━▧▣▧━━━━━━━
+➺ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃:- @anime_fan_owner
+➺ 𝐑𝐞𝐩𝐨𝐫𝐭:- @anime_x_god_group***
         """
         
         keyboard = [
@@ -44,7 +54,7 @@ async def start(update: Update, context: CallbackContext) -> None:
             [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help'),
-            [InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')],
+            InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')],
             [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇᴅ💥", url=f'https://t.me/anime_fan_owner')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -59,7 +69,7 @@ async def start(update: Update, context: CallbackContext) -> None:
             [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help'),
-            [InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')],
+            InlineKeyboardButton("Sᴏᴜʀᴄᴇ 😁", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')],
             [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇᴅ💥", url=f'https://t.me/anime_fan_owner')]
         ]
         
@@ -94,9 +104,19 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***𝐇𝐄𝐋𝐋𝐎...*** 💫
+        ***𝐇𝐄𝐋𝐋𝐎 𝐈'𝐌 𝐀𝐃𝐕𝐀𝐍𝐂𝐄 𝐖𝐀𝐈𝐅𝐔𝐒 & 𝐇𝐔𝐒𝐁𝐀𝐍𝐃𝐎𝐒 𝐂𝐀𝐓𝐂𝐇𝐄𝐑 𝐁𝐎𝐓*** 💫
 
-***I ᴀᴍ Aɴ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cʜᴀʀᴀᴄᴛᴇʀ Cᴀᴛᴄʜᴇʀ Bᴏᴛ..Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘ.. Aɴᴅ I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Cʜᴀʀᴀᴄᴛᴇʀs Aғᴛᴇʀ.. ᴇᴠᴇʀʏ 𝟷𝟶𝟶 ᴍᴇssᴀɢᴇs ɪɴ Gʀᴏᴜᴘ... Usᴇ /Guess ᴛᴏ.. Cᴏʟʟᴇᴄᴛ ᴛʜᴀᴛ Cʜᴀʀᴀᴄᴛᴇʀs ɪɴ Yᴏᴜʀ Cᴏʟʟᴇᴄᴛɪᴏɴ.. ᴀɴᴅ sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ ʙʏ ᴜsɪɴɢ /Harem... Sᴏ ᴀᴅᴅ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ Cᴏʟʟᴇᴄᴛ Yᴏᴜʀ ʜᴀʀᴇᴍ***
+***🍃 ɢʀᴇᴇᴛɪɴɢs, ɪ'ᴍ ˹ᴡᴀɪғᴜ ɢꝛᴀʙʙᴇꝛ ʙᴏᴛ˼ 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!
+━━━━━━━▧▣▧━━━━━━━
+⦾ ᴡʜᴀᴛ ɪ ᴅᴏ: ɪ sᴘᴀᴡɴ   
+     ᴡᴀɪғᴜs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ғᴏʀ
+     ᴜsᴇʀs ᴛᴏ ɢʀᴀʙ.
+⦾ ᴛᴏ ᴜsᴇ ᴍᴇ: ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ
+     ɢʀᴏᴜᴘ ᴀɴᴅ ᴛᴀᴘ ᴛʜᴇ ʜᴇʟᴘ
+     ʙᴜᴛᴛᴏɴ ғᴏʀ ᴅᴇᴛᴀɪʟs.
+━━━━━━━▧▣▧━━━━━━━
+➺ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃:- @anime_fan_owner
+➺ 𝐑𝐞𝐩𝐨𝐫𝐭:- @anime_x_god_group***
         """
 
         
@@ -105,7 +125,7 @@ async def button(update: Update, context: CallbackContext) -> None:
             [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help'),
-            [InlineKeyboardButton("SOURCE", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13'),
+            InlineKeyboardButton("SOURCE", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13'),
             [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇᴅ💥", url=f'https://t.me/anime_fan_owner')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
