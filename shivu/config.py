@@ -7,7 +7,7 @@ class Config(object):
     GROUP_ID = -1002119971614
     TOKEN = "6980178795:AAEBUZDJsLta5IbcXBRaq3pSjhAZMXFvrlM"
     mongo_url = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority"
-    PHOTO_URL = ["https://telegra.ph/file/2767b2d21e0667a81a364.jpg", "https://telegra.ph/file/091c080e387799aad5536.jpg"]
+    PHOTO_URL = ["https://telegra.ph/file/2767b2d21e0667a81a364.jpg", "https://telegra.ph/file/091c080e387799aad5536.jpg", "https://telegra.ph/file/1926c7c608d2c2b891ff1.jpg"]
     SUPPORT_CHAT = "anime_x_god_group"
     UPDATE_CHAT = "anime_x_god"
     BOT_USERNAME = "taki_waifus_bot"
