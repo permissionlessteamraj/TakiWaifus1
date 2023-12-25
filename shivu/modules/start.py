@@ -125,7 +125,7 @@ async def button(update: Update, context: CallbackContext) -> None:
             [InlineKeyboardButton("✨Sᴜᴘᴘᴏʀᴛ✨", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("Uᴘᴅᴀᴛᴇ💫", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs🌟", callback_data='help'),
-            InlineKeyboardButton("SOURCE", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13'),
+            InlineKeyboardButton("SOURCE", url=f'https://t.me/Andi_mandi_sandi_tu_hai_randi/13')],
             [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇᴅ💥", url=f'https://t.me/anime_fan_owner')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
