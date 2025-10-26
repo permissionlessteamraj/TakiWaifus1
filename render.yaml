@@ -5,7 +5,7 @@ services:
     plan: free
     region: oregon
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python3 shivu"
+    startCommand: "python3 -m shivu"
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         value: ""
