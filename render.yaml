@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: TakiWaifus-Bot
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python3 shivu"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: ""
+      - key: API_ID
+        value: ""
+      - key: API_HASH
+        value: ""
+      - key: ADMIN_ID
+        value: ""
+      - key: PORT
+        value: "10000"
